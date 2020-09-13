@@ -1,17 +1,18 @@
-﻿<Properties StartupConfiguration="{03D3FC19-BE0A-46ED-BCF4-64A119AA5A14}|Default">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{03D3FC19-BE0A-46ED-BCF4-64A119AA5A14}|Default">
   <MonoDevelop.Ide.ItemProperties.RedisExchangeAPI.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RedisExchangeAPI.Web/Controllers/HomeController.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="RedisExchangeAPI.Web/Controllers/HomeController.cs" Line="30" Column="1" />
+      <File FileName="RedisExchangeAPI.Web/Services/RedisService.cs" Line="24" Column="48" />
+      <File FileName="RedisExchangeAPI.Web/appsettings.json" Line="2" Column="71" />
+      <File FileName="RedisExchangeAPI.Web/Startup.cs" Line="29" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="redis" expanded="True">
             <Node name="RedisExchangeAPI.Web" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="HomeController.cs" selected="True" />
-              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>

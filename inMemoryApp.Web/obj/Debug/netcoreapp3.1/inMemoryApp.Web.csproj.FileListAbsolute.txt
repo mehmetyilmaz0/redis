@@ -35,3 +35,4 @@
 /Users/mehmetyilmaz/Projects/redis/inMemoryApp.Web/obj/Debug/netcoreapp3.1/inMemoryApp.Web.pdb
 /Users/mehmetyilmaz/Projects/redis/inMemoryApp.Web/obj/Debug/netcoreapp3.1/inMemoryApp.Web.genruntimeconfig.cache
 /Users/mehmetyilmaz/Projects/redis/inMemoryApp.Web/obj/Debug/netcoreapp3.1/inMemoryApp.Web.csproj.CopyComplete
+/Users/mehmetyilmaz/Projects/redis/inMemoryApp.Web/obj/Debug/netcoreapp3.1/inMemoryApp.Web.csprojAssemblyReference.cache
