@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{6D87FE08-0741-4757-8153-CB518EC64BF8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IDistributedCacheApp.Web/Views/Product/ImageShow.cshtml">
+    <Files>
+      <File FileName="IDistributedCacheApp.Web/Controllers/ProductController.cs" Line="60" Column="39" />
+      <File FileName="IDistributedCacheApp.Web/Views/Product/ImageShow.cshtml" Line="5" Column="30" />
+      <File FileName="IDistributedCacheApp.Web/Views/Product/Index.cshtml" Line="6" Column="41" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="redis" expanded="True">
+            <Node name="IDistributedCacheApp.Web" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Product" expanded="True">
+                  <Node name="ImageShow.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="images" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.IDistributedCacheApp.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.inMemoryApp.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

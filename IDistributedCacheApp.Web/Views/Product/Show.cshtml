@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    IDistributedCacheApp.Models.Product product = ViewBag.product as IDistributedCacheApp.Models.Product;
+}
+
+    <div class="text-center">
+        <h1 class="display-4">@ViewBag.city</h1>
+        <h1 class="display-4">@product.ID - @product.name - @product.amount</h1>
+    </div>

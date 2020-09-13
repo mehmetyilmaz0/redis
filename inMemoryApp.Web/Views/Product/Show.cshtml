@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    inMemoryApp.Models.Product p = ViewBag.product1 as inMemoryApp.Models.Product;
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewBag.zaman</h1> <!-- controller da setledigimiz "zaman" isimli degiskeni ekrana bastik -->
+    <h1 class="display-4">@p.ID - @p.name - @p.amount</h1> <!-- controller da setledigimiz "product1" isimli neseni ekrana bastik -->
+    <h1 class="display-4">@ViewBag.callback</h1> <!-- controller da setledigimiz "callback" isimli degiskeni ekrana bastik -->
+</div>
