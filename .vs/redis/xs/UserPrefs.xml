@@ -1,25 +1,16 @@
-﻿<Properties StartupConfiguration="{6D87FE08-0741-4757-8153-CB518EC64BF8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IDistributedCacheApp.Web/Views/Product/ImageShow.cshtml">
+﻿<Properties StartupConfiguration="{03D3FC19-BE0A-46ED-BCF4-64A119AA5A14}|Default">
+  <MonoDevelop.Ide.ItemProperties.RedisExchangeAPI.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RedisExchangeAPI.Web/Controllers/HomeController.cs">
     <Files>
-      <File FileName="IDistributedCacheApp.Web/Controllers/ProductController.cs" Line="60" Column="39" />
-      <File FileName="IDistributedCacheApp.Web/Views/Product/ImageShow.cshtml" Line="5" Column="30" />
-      <File FileName="IDistributedCacheApp.Web/Views/Product/Index.cshtml" Line="6" Column="41" />
+      <File FileName="RedisExchangeAPI.Web/Controllers/HomeController.cs" Line="30" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="redis" expanded="True">
-            <Node name="IDistributedCacheApp.Web" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Product" expanded="True">
-                  <Node name="ImageShow.cshtml" selected="True" />
-                </Node>
-                <Node name="Shared" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="images" expanded="True" />
+            <Node name="RedisExchangeAPI.Web" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
               </Node>
             </Node>
           </Node>
