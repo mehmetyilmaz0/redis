@@ -45,3 +45,5 @@
 /Users/mehmetyilmaz/Projects/redis/RedisExchangeAPI.Web/bin/Debug/netcoreapp3.1/System.Threading.Channels.dll
 /Users/mehmetyilmaz/Projects/redis/RedisExchangeAPI.Web/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Diagnostics.PerformanceCounter.dll
 /Users/mehmetyilmaz/Projects/redis/RedisExchangeAPI.Web/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/mehmetyilmaz/Projects/redis/RedisExchangeAPI.Web/obj/Debug/netcoreapp3.1/Razor/Views/StringType/Index.cshtml.g.cs
+/Users/mehmetyilmaz/Projects/redis/RedisExchangeAPI.Web/obj/Debug/netcoreapp3.1/Razor/Views/StringType/Show.cshtml.g.cs

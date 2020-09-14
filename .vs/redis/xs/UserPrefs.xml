@@ -1,16 +1,27 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{03D3FC19-BE0A-46ED-BCF4-64A119AA5A14}|Default">
   <MonoDevelop.Ide.ItemProperties.RedisExchangeAPI.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RedisExchangeAPI.Web/Services/RedisService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RedisExchangeAPI.Web/Views/StringType/Show.cshtml">
     <Files>
-      <File FileName="RedisExchangeAPI.Web/Services/RedisService.cs" Line="21" Column="10" />
+      <File FileName="RedisExchangeAPI.Web/Services/RedisService.cs" Line="13" Column="25" />
+      <File FileName="RedisExchangeAPI.Web/Startup.cs" />
+      <File FileName="RedisExchangeAPI.Web/Controllers/StringTypeController.cs" Line="37" Column="46" />
+      <File FileName="RedisExchangeAPI.Web/Views/StringType/Show.cshtml" Line="7" Column="113" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="redis" expanded="True">
             <Node name="RedisExchangeAPI.Web" expanded="True">
-              <Node name="Services" expanded="True">
-                <Node name="RedisService.cs" selected="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="StringType" expanded="True">
+                  <Node name="Show.cshtml" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
