@@ -10,5 +10,6 @@
   <ItemGroup>
     <Folder Include="Services\" />
     <Folder Include="Views\StringType\" />
+    <Folder Include="Views\ListType\" />
   </ItemGroup>
 </Project>
