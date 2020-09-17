@@ -50,3 +50,4 @@
 /Users/mehmetyilmaz/Projects/redis/RedisExchangeAPI.Web/obj/Debug/netcoreapp3.1/Razor/Views/ListType/Index.cshtml.g.cs
 /Users/mehmetyilmaz/Projects/redis/RedisExchangeAPI.Web/obj/Debug/netcoreapp3.1/Razor/Views/SetType/Index.cshtml.g.cs
 /Users/mehmetyilmaz/Projects/redis/RedisExchangeAPI.Web/obj/Debug/netcoreapp3.1/Razor/Views/ShortedSetType/Index.cshtml.g.cs
+/Users/mehmetyilmaz/Projects/redis/RedisExchangeAPI.Web/obj/Debug/netcoreapp3.1/Razor/Views/RedisHashType/Index.cshtml.g.cs

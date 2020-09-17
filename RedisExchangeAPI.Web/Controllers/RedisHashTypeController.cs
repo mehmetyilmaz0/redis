@@ -10,13 +10,13 @@ using RedisExchangeAPI.Web.Services;
 
 namespace RedisExchangeAPI.Web.Controllers
 {
-    public class ShortedSetTypeController : Controller
+    public class RedisHashTypeController : Controller
     {
         private readonly RedisService _redisService;
 
-        private string listKey = "sortedSetNames"; 
+        private string listKey = "redisHashSozluk"; 
 
-        public ShortedSetTypeController(RedisService redisService)
+        public RedisHashTypeController(RedisService redisService)
         {
             _redisService = redisService;
         }
@@ -25,42 +25,34 @@ namespace RedisExchangeAPI.Web.Controllers
         {
             var db = _redisService.GetDb(3); //redis desktop manager den gorecegimiz uzere ikinci db yi kullanacagimizi belirtiyoruz.
 
-            HashSet<string> hashSetList = new HashSet<string>();
+            Dictionary<string, string> keyValues = new Dictionary<string, string>();
 
             if (db.KeyExists(listKey))
             {
-                /*
-                    db.SortedSetScan(listKey).ToList().ForEach((x) => // db deki kayit sirasina gore siralar
-                    {
-                        hashSetList.Add(x.ToString());
-                    });
-                */
-
-                db.SortedSetRangeByRank(listKey, order:StackExchange.Redis.Order.Descending).ToList().ForEach((x) => // score degeri buyukten kucuge dogru sirala
+                db.HashGetAll(listKey).ToList().ForEach((x) =>
                 {
-                    hashSetList.Add(x.ToString());
+                    keyValues.Add(x.Name, x.Value);
                 });
-
             }
+            
 
 
-            return View(hashSetList);
+            return View(keyValues);
         }
 
 
         [HttpPost]
-        public IActionResult Add(string name, int score)
+        public IActionResult Add(string name, string value)
         {
             var db = _redisService.GetDb(3); //redis desktop manager den gorecegimiz uzere birinci db yi kullanacagimizi belirtiyoruz.
-            db.SortedSetAdd(listKey, name, score); // "hashNames" key isimli bir liste olustur ve metoda gelen "name" degiskenini bu listeye ekle
-            db.KeyExpire(listKey, DateTime.Now.AddMinutes(1)); // listKey degiskeni icin db de 5 dakikalik omur verildi
+            db.HashSet(listKey, name, value);
             return RedirectToAction("index"); // index actionuna git
         }
 
         public IActionResult Delete(string name)
         {
             var db = _redisService.GetDb(3); //redis desktop manager den gorecegimiz uzere birinci db yi kullanacagimizi belirtiyoruz.
-            db.SortedSetRemove(listKey, name);
+            db.HashDelete(listKey, name);
             return RedirectToAction("index"); // index actionuna git
         }
 

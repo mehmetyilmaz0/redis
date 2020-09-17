@@ -1,4 +1,4 @@
-﻿@model HashSet<string>
+﻿@model Dictionary<string, string>
 @{
     ViewData["Title"] = "List Type Page";
 }
@@ -6,12 +6,12 @@
 <div class="text-center">
     <form method="post" asp-action="Add" enctype="application/x-www-form-urlencoded">
         <input type="text" name="name" />
-        <input type="number" name="score" />
+        <input type="text" name="value" />
         <button type="submit">Kaydet</button>
     </form>
 </div>
 
 @foreach (var item in Model)
 {
-    <h2>@item <a asp-controller="ShortedSetType" asp-action="Delete" asp-route-name="@item">Sil</a> </h2>
+    <h2>@item.Key -> @item.Value <a asp-controller="RedisHashType" asp-action="Delete" asp-route-name="@item.Key">Sil</a> </h2>
 }
