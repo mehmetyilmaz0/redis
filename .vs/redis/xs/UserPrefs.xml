@@ -1,9 +1,9 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{03D3FC19-BE0A-46ED-BCF4-64A119AA5A14}|Default">
   <MonoDevelop.Ide.ItemProperties.RedisExchangeAPI.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RedisExchangeAPI.Web/Controllers/SetTypeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RedisExchangeAPI.Web/Controllers/ShortedSetTypeController.cs">
     <Files>
-      <File FileName="RedisExchangeAPI.Web/Controllers/SetTypeController.cs" Line="38" Column="36" />
-      <File FileName="RedisExchangeAPI.Web/Views/SetType/Index.cshtml" Line="1" Column="19" />
+      <File FileName="RedisExchangeAPI.Web/Controllers/ShortedSetTypeController.cs" Line="55" Column="17" />
+      <File FileName="RedisExchangeAPI.Web/Views/ShortedSetType/Index.cshtml" Line="17" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,10 +11,11 @@
           <Node name="redis" expanded="True">
             <Node name="RedisExchangeAPI.Web" expanded="True">
               <Node name="Controllers" expanded="True">
-                <Node name="SetTypeController.cs" selected="True" />
+                <Node name="ShortedSetTypeController.cs" selected="True" />
               </Node>
               <Node name="Views" expanded="True">
                 <Node name="SetType" expanded="True" />
+                <Node name="ShortedSetType" expanded="True" />
               </Node>
             </Node>
           </Node>
